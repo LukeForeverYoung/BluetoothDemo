@@ -10,6 +10,10 @@
     <style name="TextStyle">
         <item name="android:layout_height">40dp</item>
         <item name="android:layout_width">200dp</item>
+        <item name="android:layout_marginTop">60dp</item>
+        <item name="android:layout_marginStart">40dp</item>
     </style>
-
+    <style name="LabelStyle" parent="TextStyle">
+        <item name="android:layout_marginStart">8dp</item>
+    </style>
 </resources>

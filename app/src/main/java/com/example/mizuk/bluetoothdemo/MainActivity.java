@@ -60,13 +60,13 @@ public class MainActivity extends AppCompatActivity {
         checkPermission();
         discoverState=0;
         final boolean singa = false;
-        tv1 = (TextView) findViewById(R.id.textView6);
-        tv3 = (TextView) findViewById(R.id.textView7);
+        tv1 = (TextView) findViewById(R.id.tem_label);
+        tv3 = (TextView) findViewById(R.id.tem_textView);
         distanceTextView = (TextView) findViewById(R.id.distance_textview);
         tvb = (TextView) findViewById(R.id.textView2);
         tvc = (TextView) findViewById(R.id.lat_textview);
         tvd = (TextView) findViewById(R.id.textView4);
-        tve = (TextView) findViewById(R.id.textView5);
+        tve = (TextView) findViewById(R.id.lon_textView);
 
 
         ed = (EditText) findViewById(R.id.editText);
