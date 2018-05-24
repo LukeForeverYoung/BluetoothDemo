@@ -31,12 +31,12 @@ import java.util.UUID;
 import java.util.Vector;
 
 
-public class BlueToothHelper {
+public class BluetoothHelper {
 
     private Vector<BluetoothDevice> vector;
     MainActivity activity;
     int rapRssi;
-    public BlueToothHelper(MainActivity activity)
+    public BluetoothHelper(MainActivity activity)
     {
         rapRssi=0;
         this.activity=activity;
